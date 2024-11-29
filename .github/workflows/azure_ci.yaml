@@ -17,8 +17,8 @@ on:
 jobs:
   build-push:
     name: azr-build-push
-    #runs-on: ubuntu-latest
-    runs-on: [self-hosted, Linux, X64]  
+    runs-on: ubuntu-latest
+    #runs-on: [self-hosted, Linux, X64]  
     environment: production
 
     steps:
