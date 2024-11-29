@@ -18,7 +18,7 @@
     "defu": "^6.1.4",
     "is-builtin-module": "^4.0.0",
     "nuxi": "^3.13.1",
-    "nuxt": "^3.13.1",
+    "nuxt": "^3.13.2",
     "pinia": "^2.1.7",
     "pinia-plugin-persistedstate": "^4.0.1",
     "vue": "^3.4.38",
