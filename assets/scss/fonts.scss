@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'NotoSans';
+	font-style: normal;
+	font-weight: lighter;
+	src: 	url(../fonts/NotoSansKr/NotoSansKR-Regular.woff2) format('woff2'),
+			url(../fonts/NotoSansKr/NotoSansKR-Regular.woff) format('woff'),
+			url(../fonts/NotoSansKr/NotoSansKR-Regular.otf) format('opentype');
+}
+@font-face {
+	font-family: 'NotoSansM';
+	font-style: normal;
+	font-weight: normal;
+	src: 	url(../fonts/NotoSansKr/NotoSansKR-Medium.woff2) format('woff2'),
+			url(../fonts/NotoSansKr/NotoSansKR-Medium.woff) format('woff'),
+			url(../fonts/NotoSansKr/NotoSansKR-Medium.otf) format('opentype');
+}
+@font-face {
+	font-family: 'NotoSansB';
+	font-style: normal;
+	font-weight: bold;
+	src: 	url(../fonts/NotoSansKr/NotoSansKR-Bold.woff2) format('woff2'),
+			url(../fonts/NotoSansKr/NotoSansKR-Bold.woff) format('woff'),
+			url(../fonts/NotoSansKr/NotoSansKR-Bold.otf) format('opentype');
+}
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: lighter;
+	src: 	url(../fonts/iconfont/MaterialIcons-Regular.woff2) format('woff2'),
+			url(../fonts/iconfont/MaterialIcons-Regular.woff) format('woff'),
+			url(../fonts/iconfont/MaterialIcons-Regular.otf) format('opentype');
+}

@@ -1,0 +1,21 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nitro
+.cache
+dist
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Node modules
+node_modules
+package-lock.json
+
+pages/publish.vue

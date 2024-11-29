@@ -1,0 +1,312 @@
+[
+    {
+      "title": "제도소개",
+      "link": "/intro/definition",
+      "show": true,
+      "intro": "kt그룹 국가정보통신서비스 제도소개 입니다.",
+      "subMenu": [
+        {
+          "title": "정의",
+          "link": "/intro/definition",
+          "show": true,
+          "subMenu": []
+        },
+        {
+          "title": "특징",
+          "link": "/intro/feature",
+          "show": true,
+          "subMenu": []
+        },
+        {
+          "title": "서비스체계",
+          "link": "/intro/service",
+          "show": true,
+          "subMenu": []
+        },
+        {
+          "title": "제도변경사항",
+          "link": "/intro/changepoint",
+          "show": true,
+          "subMenu": []
+        },
+        {
+          "title": "추진체계",
+          "link": "/intro/counsel",
+          "show": true,
+          "subMenu": []
+        },
+        {
+          "title": "추진경과",
+          "link": "/intro/propulsion",
+          "show": true,
+          "subMenu": []
+        }
+      ]
+    },
+    {
+      "title": "kt그룹서비스",
+      "link": "#",
+      "show": true,
+      "intro": "kt그룹 국가정보통신서비스 kt그룹서비스 입니다.",
+      "subMenu": [
+        {
+          "title": "A. 전용회선서비스",
+          "link": "/service/ktservice/1",
+          "show": true,
+          "subMenu": [
+            {
+              "title": "기본회선서비스",
+              "link": "/service/leased_basic",
+              "show": true
+            },
+            {
+              "title": "백본회선서비스",
+              "link": "/service/leased_backbone",
+              "show": true
+            },
+            {
+              "title": "전용회선 인프라",
+              "link": "/service/leasedline_infra",
+              "show": true
+            }
+          ]
+        },
+        {
+          "title": "B. 인터넷서비스",
+          "link": "/service/ktservice/2",
+          "show": true,
+          "subMenu": [
+            {
+              "title": "인터넷서비스",
+              "link": "/service/ipservice_internet",
+              "show": true
+            },
+            {
+              "title": "인터넷 인프라",
+              "link": "/service/ipservice_infra",
+              "show": true
+            }
+          ]
+        },
+        {
+          "title": "C. 인터넷전화서비스",
+          "link": "/service/ktservice/3",
+          "show": true,
+          "subMenu": [
+            {
+              "title": "인터넷전화서비스",
+              "link": "/service/ipservice_soip",
+              "show": true
+            },
+            {
+              "title": "모바일행정전화 서비스",
+              "link": "/service/wireless_m_internetphone",
+              "show": true
+            },
+            {
+              "title": "인터넷 전화 인프라",
+              "link": "/service/ipservice_soip_infra",
+              "show": true
+            },
+            {
+              "title": "모바일행정전화 인프라",
+              "link": "/service/wireless_m_internetphone_infra",
+              "show": true
+            }
+          ]
+        },
+        {
+          "title": "D. 무선서비스",
+          "link": "/service/ktservice/4",
+          "show": true,
+          "subMenu": [
+            {
+              "title": "무선데이터서비스",
+              "link": "/service/wireless_data",
+              "show": true
+            },
+            {
+              "title": "IoT서비스",
+              "link": "/service/iot_service",
+              "show": true
+            },
+            {
+              "title": "무선 인프라",
+              "link": "/service/wireless_infra",
+              "show": true
+            },
+            {
+              "title": "IoT 인프라",
+              "link": "/service/iot_infra",
+              "show": true
+            }
+          ]
+        },
+        {
+          "title": "E. CCTV서비스",
+          "link": "/service/ktservice/5",
+          "show": true,
+          "subMenu": [
+            {
+              "title": "CCTV 전송회선 서비스",
+              "link": "/service/leased_cctv",
+              "show": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "이용안내",
+      "link": "#",
+      "show": true,
+      "intro": "kt그룹 국가정보통신서비스 이용안내 입니다.",
+      "subMenu": [
+        {
+          "title": "이용절차",
+          "link": "#",
+          "show": true,
+          "subMenu": [
+            {
+              "title": "이용절차",
+              "link": "/guide/procedure",
+              "show": true
+            },
+            {
+              "title": "청약절차",
+              "link": "/guide/procedure1",
+              "show": true
+            }
+          ]
+        },
+        {
+          "title": "요금정보",
+          "link": "#",
+          "show": true,
+          "subMenu": [
+            {
+              "title": "요금표",
+              "link": "/guide/charges",
+              "show": true
+            },
+            {
+              "title": "권역/거리/속도체계",
+              "link": "/guide/area",
+              "show": true
+            },
+            {
+              "title": "이용요금계산",
+              "link": "/charge/reckoning",
+              "show": true
+            }
+          ]
+        },
+        {
+          "title": "상담안내",
+          "link": "/guide/counsel",
+          "show": true,
+          "subMenu": []
+        },
+        {
+          "title": "운영/장애 안내",
+          "link": "#",
+          "show": true,
+          "subMenu": [
+            {
+              "title": "KT특장점",
+              "link": "/guide/kt_merit",
+              "show": true
+            },
+            {
+              "title": "KTsat특장점",
+              "link": "/guide/ktsat_merit",
+              "show": true
+            },
+            {
+              "title": "조직/체계",
+              "link": "/guide/formation",
+              "show": true
+            },
+            {
+              "title": "장애대응 방안",
+              "link": "/guide/hindrance",
+              "show": true
+            },
+            {
+              "title": "망관리/감시",
+              "link": "/guide/control",
+              "show": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "트래픽조회",
+      "link": "#",
+      "show": false,
+      "intro": "kt그룹 국가정보통신서비스 트래픽조회 입니다.",
+      "subMenu": [
+        {
+          "title": "트래픽조회 서비스",
+          "link": "#",
+          "show": true,
+          "subMenu": [
+            {
+              "title": "회선조회",
+              "link": "/traffic/traffic1",
+              "show": true
+            },
+            {
+              "title": "트래픽조회",
+              "link": "/traffic/traffic2",
+              "show": true
+            },
+            {
+              "title": "그래프",
+              "link": "/traffic/traffic3",
+              "show": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "고객지원",
+      "link": "#",
+      "show": true,
+      "intro": "kt그룹 국가정보통신서비스 고객지원 입니다.",
+      "subMenu": [
+        {
+          "title": "공지사항",
+          "link": "/support/notice_list",
+          "show": true,
+          "subMenu": []
+        },
+        {
+          "title": "자료실",
+          "link": "/support/dataroom_list",
+          "show": false,
+          "subMenu": []
+        },
+        {
+          "title": "FAQ",
+          "link": "/support/faq",
+          "show": true,
+          "subMenu": []
+        },
+        {
+          "title": "홈페이지 이용약관",
+          "link": "/member/agreement",
+          "show": true,
+          "subMenu": []
+        },
+        {
+          "title": "개인정보처리방침",
+          "link": "/member/personal",
+          "show": true,
+          "subMenu": []
+        }
+      ]
+    }
+]

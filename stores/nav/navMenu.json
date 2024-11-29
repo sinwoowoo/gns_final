@@ -1,0 +1,394 @@
+[
+  {
+    "title": "제도소개",
+    "link": "/intro/definition/",
+    "show": true,
+    "intro": "kt그룹 국가정보통신서비스 제도소개 입니다.",
+    "subMenu": [
+      {
+        "title": "정의",
+        "link": "/intro/definition",
+        "show": true,
+        "intro": "kt그룹 국가정보통신서비스의 정의입니다.",
+        "subMenu": []
+      },
+      {
+        "title": "특징",
+        "link": "/intro/feature",
+        "show": true,
+        "intro": "kt그룹 국가정보통신서비스의 특징을 소개해드리겠습니다.",
+        "subMenu": []
+      },
+      {
+        "title": "서비스체계",
+        "link": "/intro/service",
+        "show": true,
+        "intro": "kt그룹 국가정보통신서비스의 서비스체계를 소개해드리겠습니다.",
+        "subMenu": []
+      },
+      {
+        "title": "제도변경사항",
+        "link": "/intro/changepoint",
+        "show": true,
+        "intro": "kt그룹 4단계 국가정보통신서비스의 1,2,3단계 대비 달라진 제도변경사항을 알려드리겠습니다.",
+        "subMenu": []
+      },
+      {
+        "title": "추진체계",
+        "link": "/intro/counsel",
+        "show": true,
+        "intro": "",
+        "subMenu": []
+      },
+      {
+        "title": "추진경과",
+        "link": "/intro/propulsion",
+        "show": true,
+        "intro": "",
+        "subMenu": []
+      }
+    ]
+  },
+  {
+    "title": "kt그룹서비스",
+    "link": "/service/",
+    "show": true,
+    "intro": "kt그룹 국가정보통신서비스 kt그룹서비스 입니다.",
+    "subMenu": [
+      {
+        "title": "A. 전용회선서비스",
+        "link": "/service?tab=A",
+        "show": true,
+        "intro": "kt그룹 국가정보통신서비스의 <span class='kt-red-text'>A·B·C·D·E Group</span>에 대해 소개 드립니다.",
+        "subMenu": [
+          {
+            "title": "기본회선서비스",
+            "link": "/service/leased?tab=basic",
+            "show": true,
+            "intro": "",
+            "subMenu": []
+          },
+          {
+            "title": "백본회선서비스",
+            "link": "/service/leased?tab=backbone",
+            "show": true,
+            "intro": "",
+            "subMenu": []
+          },
+          {
+            "title": "전용회선 인프라",
+            "link": "/service/leased?tab=infra",
+            "show": true,
+            "intro": "",
+            "subMenu": []
+          }
+        ]
+      },
+      {
+        "title": "B. 인터넷서비스",
+        "link": "/service?tab=B",
+        "show": true,
+        "intro": "kt그룹 국가정보통신서비스의 <span class='kt-red-text'>A·B·C·D·E Group</span>에 대해 소개 드립니다.",
+        "subMenu": [
+          {
+            "title": "인터넷서비스",
+            "link": "/service/internet?tab=service",
+            "show": true,
+            "intro": "",
+            "subMenu": []
+          },
+          {
+            "title": "인터넷 인프라",
+            "link": "/service/internet?tab=infra",
+            "show": true,
+            "intro": "",
+            "subMenu": []
+          }
+        ]
+      },
+      {
+        "title": "C. 인터넷전화서비스",
+        "link": "/service?tab=C",
+        "show": true,
+        "intro": "kt그룹 국가정보통신서비스의 <span class='kt-red-text'>A·B·C·D·E Group</span>에 대해 소개 드립니다.",
+        "subMenu": [
+          {
+            "title": "인터넷전화서비스",
+            "link": "/service/soip?tab=service",
+            "show": true,
+            "intro": "",
+            "subMenu": []
+          },
+          {
+            "title": "모바일행정전화 서비스",
+            "link": "/service/soip?tab=mobile_gov",
+            "show": true,
+            "intro": "",
+            "subMenu": []
+          },
+          {
+            "title": "인터넷 전화 인프라",
+            "link": "/service/soip?tab=infra",
+            "show": true,
+            "intro": "",
+            "subMenu": []
+          },
+          {
+            "title": "모바일행정전화 인프라",
+            "link": "/service/soip?tab=mobile_gov_infra",
+            "show": true,
+            "intro": "",
+            "subMenu": []
+          }
+        ]
+      },
+      {
+        "title": "D. 무선서비스",
+        "link": "/service?tab=D",
+        "show": true,
+        "intro": "kt그룹 국가정보통신서비스의 <span class='kt-red-text'>A·B·C·D·E Group</span>에 대해 소개 드립니다.",
+        "subMenu": [
+          {
+            "title": "무선데이터서비스",
+            "link": "/service/wireless?tab=service",
+            "show": true,
+            "intro": "",
+            "subMenu": []
+          },
+          {
+            "title": "IoT서비스",
+            "link": "/service/wireless?tab=iot",
+            "show": true,
+            "intro": "",
+            "subMenu": []
+          },
+          {
+            "title": "무선 인프라",
+            "link": "/service/wireless?tab=infra",
+            "show": true,
+            "intro": "",
+            "subMenu": []
+          },
+          {
+            "title": "IoT 인프라",
+            "link": "/service/wireless?tab=iot_infra",
+            "show": true,
+            "intro": "",
+            "subMenu": []
+          }
+        ]
+      },
+      {
+        "title": "E. CCTV서비스",
+        "link": "/service?tab=E",
+        "show": true,
+        "intro": "kt그룹 국가정보통신서비스의 <span class='kt-red-text'>A·B·C·D·E Group</span>에 대해 소개 드립니다.",
+        "subMenu": [
+          {
+            "title": "CCTV 전송회선 서비스",
+            "link": "/service/cctv",
+            "show": true,
+            "intro": "",
+            "subMenu": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "이용안내",
+    "link": "#",
+    "show": true,
+    "intro": "kt그룹 국가정보통신서비스 이용안내 입니다.",
+    "subMenu": [
+      {
+        "title": "이용절차",
+        "link": "#",
+        "show": true,
+        "intro": "",
+        "subMenu": [
+          {
+            "title": "이용절차",
+            "link": "/guide/procedure?tab=using",
+            "show": true,
+            "intro": "kt그룹 국가정보통신서비스 이용절차를 알려드리겠습니다.",
+            "subMenu": []
+          },
+          {
+            "title": "청약절차",
+            "link": "/guide/procedure?tab=subscription",
+            "show": true,
+            "intro": "kt그룹 국가정보통신서비스 <span class='kt-red-text'>이용절차</span>를 알려드리겠습니다.",
+            "subMenu": []
+          }
+        ]
+      },
+      {
+        "title": "요금정보",
+        "link": "#",
+        "show": true,
+        "intro": "",
+        "subMenu": [
+          {
+            "title": "요금표",
+            "link": "/guide/charges?tab=price",
+            "show": true,
+            "intro": "kt그룹 국가정보통신서비스의 <span class='kt-red-text'>요금정보</span>를 알려드리겠습니다.",
+            "subMenu": []
+          },
+          {
+            "title": "권역/거리/속도체계",
+            "link": "/guide/charges?tab=area",
+            "show": true,
+            "intro": "kt그룹 국가정보통신서비스의 <span class='kt-red-text'>요금정보</span>를 알려드리겠습니다.",
+            "subMenu": []
+          },
+          {
+            "title": "이용요금계산",
+            "link": "/guide/charges?tab=reckoning",
+            "show": false,
+            "intro": "kt그룹 국가정보통신서비스의 <span class='kt-red-text'>요금정보</span>를 알려드리겠습니다.",
+            "subMenu": []
+          }
+        ]
+      },
+      {
+        "title": "상담안내",
+        "link": "/guide/counsel",
+        "show": true,
+        "intro": "kt그룹 국가정보통신서비스의 상담안내를 알려드리겠습니다.",
+        "subMenu": []
+      },
+      {
+        "title": "운영/장애 안내",
+        "link": "#",
+        "show": true,
+        "intro": "",
+        "subMenu": [
+          {
+            "title": "KT특장점",
+            "link": "/guide/ktinfo?tab=kt_merit",
+            "show": true,
+            "intro": "kt그룹 국가정보통신서비스의 KT특장점을 알려드리겠습니다.",
+            "subMenu": []
+          },
+          {
+            "title": "KTsat특장점",
+            "link": "/guide/ktsatinfo?tab=ktsat_merit",
+            "show": true,
+            "intro": "kt그룹 국가정보통신서비스의 KTsat특장점을 알려드리겠습니다.",
+            "subMenu": []
+          },          
+          {
+            "title": "위성서비스",
+            "link": "/guide/ktsatinfo?tab=ktsat_wi",
+            "show": false,
+            "intro": "kt그룹 국가정보통신서비스의 <span class='kt-red-text'>KTsat특장점</span>을 알려드리겠습니다.",
+            "subMenu": []
+          },         
+          {
+            "title": "조직/체계",
+            "link": "/guide/ktinfo?tab=formation",
+            "show": true,
+            "intro": "kt그룹 국가정보통신서비스의 <span class='kt-red-text'>KT특장점</span>을 알려드리겠습니다.",
+            "subMenu": []
+          },
+          {
+            "title": "장애대응 방안",
+            "link": "/guide/ktinfo?tab=hindrance",
+            "show": true,
+            "intro": "kt그룹 국가정보통신서비스의 <span class='kt-red-text'>KT특장점</span>을 알려드리겠습니다.",
+            "subMenu": []
+          },
+          {
+            "title": "망관리/감시",
+            "link": "/guide/ktinfo?tab=control",
+            "show": true,
+            "intro": "kt그룹 국가정보통신서비스의 <span class='kt-red-text'>KT특장점</span>을 알려드리겠습니다.",
+            "subMenu": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "트래픽조회",
+    "link": "#",
+    "show": false,
+    "intro": "kt그룹 국가정보통신서비스 트래픽조회 입니다.",
+    "subMenu": [
+      {
+        "title": "트래픽조회 서비스",
+        "link": "#",
+        "show": true,
+        "intro": "",
+        "subMenu": [
+          {
+            "title": "회선조회",
+            "link": "/traffic/traffic1",
+            "show": true,
+            "intro": "",
+            "subMenu": []
+          },
+          {
+            "title": "트래픽조회",
+            "link": "/traffic/traffic2",
+            "show": true,
+            "intro": "",
+            "subMenu": []
+          },
+          {
+            "title": "그래프",
+            "link": "/traffic/traffic3",
+            "show": true,
+            "intro": "",
+            "subMenu": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "고객지원",
+    "link": "#",
+    "show": true,
+    "intro": "kt그룹 국가정보통신서비스 고객지원 입니다.",
+    "subMenu": [
+      {
+        "title": "공지사항",
+        "link": "/support/notice_list",
+        "show": false,
+        "intro": "",
+        "subMenu": []
+      },
+      {
+        "title": "자료실",
+        "link": "/support/dataroom_list",
+        "show": false,
+        "intro": "",
+        "subMenu": []
+      },
+      {
+        "title": "FAQ",
+        "link": "/support/faq",
+        "show": true,
+        "intro": "kt그룹 국가정보통신서비스(4단계)를 이용하시면서 주로 질문하시는 사항입니다.",
+        "subMenu": []
+      },
+      {
+        "title": "홈페이지 이용약관",
+        "link": "/member/agreement",
+        "show": true,
+        "intro": "kt그룹 국가정보통신서비스 홈페이지 이용약관입니다.",
+        "subMenu": []
+      },
+      {
+        "title": "개인정보처리방침",
+        "link": "/member/personal",
+        "show": true,
+        "intro": "kt그룹 국가정보통신서비스의 개인정보처리방침입니다.",
+        "subMenu": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* deepest.lee@gmail.com */
+
+@import url("fonts.scss");
+
+
+/* Reset */
+/* CSS Document */
+* {
+	margin:0; padding:0; word-break:break-all;
+	/*scroll*/
+	scrollbar-width:thin;
+	&::-webkit-scrollbar {width:8px;}
+	&::-webkit-scrollbar-thumb {background:#9a9a9a; border-radius:2px;}
+	&::-webkit-scrollbar-track {background:#FAFAFA; border-radius:2px;}
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+html {
+	height:100%;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+body {width:100%; font-family:'NotoSans', '돋움', 'Arial', sans-serif; color:#111;}
+
+a {text-decoration:none;}
+a:focus, a:hover {text-decoration:none; font-weight:auto;}
+
+h1, h2, h3, h4, h5, h6, address {font-style:normal; font-size:14px; font-weight:normal; color:#111;}
+li, dt, dd {list-style:none;}
+img, fieldset {border:0; }
+caption, legend {display:none;}
+table {width:100%; border:0; border-collapse:collapse; border-spacing:0; empty-cells:show;}
+img {vertical-align:0;}
+
+/* Input-Select */
+input {font-size:14px; color:#fff; letter-spacing:0; -webkit-appearance:none; -webkit-border-radius:0;}
+input[type=radio], input[type=checkbox] {display: none;}
+input:focus {outline:none;}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {cursor: pointer; color:#111; font-family: "Pretendard", "돋움", "Arial", sans-serif; font-size: 14px; font-weight: 400;}
+::placeholder {
+	color: #111;
+	opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder { /* Edge 12-18 */
+	color: #111;
+}
+/* HTML5 */
+article, aside, figcaption, figure, footer, header, menu, nav, section {display:block;}
+
+/* print */
+@media print {
+	* {-webkit-print-color-adjust:exact;}
+}

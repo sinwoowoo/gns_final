@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* deepest.lee@gmail.com */
+@import "variables"; // deprecated
+
+@mixin desktop {
+    @media (min-width:#{$breakpoint-desktop}) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width:0) and (max-width:#{$breakpoint-desktop - 1px}) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (min-width:0) and (max-width:#{$breakpoint-tablet - 1px}) {
+        @content;
+    }
+}
+
+@mixin small-mobile {
+    @media (min-width:0) and (max-width:#{$breakpoint-mobile - 1px}) {
+        @content;
+    }
+}
