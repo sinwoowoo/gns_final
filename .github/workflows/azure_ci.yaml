@@ -31,12 +31,20 @@ jobs:
           username: ${{ secrets.ACR_USERNAME }}
           password: ${{ secrets.ACR_PASSWORD }}
 
+      - name: Setup timezone
+        uses: zcong1993/setup-timezone@master
+        with:
+          timezone: Asia/Seoul
+        
+      - name: set env  # TAG 를 현재 시간으로 설정
+        run: echo "NOW=$(date +'%Y%m%d%H%M%S')" >> $GITHUB_ENV
+
       - name: Extract metadata (tags, labels) for Docker
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ${{ secrets.AZURE_LOGIN_SERVER }}nuxt3-app
-          tags: ${{ steps.meta.outputs.tags }},{{ formatTime(now(), 'yyyyMMddHHmmss') }}
+          images: ${{ secrets.AZURE_LOGIN_SERVER }}
+          tags: ${{ env.NOW }}
 
       - name: Build and Push Docker image
         uses: docker/build-push-action@v3
