@@ -36,9 +36,7 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: ${{ secrets.AZURE_LOGIN_SERVER }}/nuxt3-app
-          tags: |
-            type=ref,event=branch,branch=main
-            type=sha
+          tags: ${{ steps.meta.outputs.tags }},{{ formatTime(now(), 'yyyyMMddHHmmss') }}
 
       - name: Build and Push Docker image
         uses: docker/build-push-action@v3
