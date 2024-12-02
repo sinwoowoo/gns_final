@@ -20,12 +20,13 @@ FROM ktquarantine.azurecr.io/node-alpine-20
 
 # Copy built assets from build
 COPY --from=build /app/.output ./.output
-COPY --from=build /app/.nuxt ./.nuxt
+#COPY --from=build /app/.nuxt ./.nuxt
 COPY --from=build /app/package*json ./
+COPY --from=build /app/node_modules ./node_modules
 
 # Install production dependencies only
 
-RUN npm install 
+#RUN npm install 
 
 # Set environment variables
 #ENV HOST=0.0.0.0
