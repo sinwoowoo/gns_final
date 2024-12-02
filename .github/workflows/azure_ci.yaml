@@ -43,7 +43,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ${{ secrets.AZURE_LOGIN_SERVER }}
+          images: ${{ github.repository }}
           tags: ${{ env.NOW }}
 
       - name: Build and Push Docker image
