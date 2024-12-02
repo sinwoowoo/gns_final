@@ -22,21 +22,8 @@ jobs:
     environment: production
 
     steps:
-    - name: Cache dependencies
-      uses: actions/cache@v2
-      with:
-        path: ~/.cache/pip
-        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-        restore-keys: |
-          ${{ runner.os }}-pip-
-          
     - name: Check out the repo
       uses: actions/checkout@v4
-   
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.8'
       
     - name: Log in to Docker Hub
       uses: azure/docker-login@v1
@@ -61,7 +48,7 @@ jobs:
         tags: ${{ env.NOW }} # ${{ github.event.inputs.name }}
   
     - name: Build and Push to ACR
-      uses: docker/build-push-action@v4
+      uses: docker/build-push-action@v2
       with:
         context: .
         push: true
