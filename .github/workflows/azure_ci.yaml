@@ -35,7 +35,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ${{ secrets.AZURE_LOGIN_SERVER }}/nuxt3-app
+          images: ${{ secrets.AZURE_LOGIN_SERVER }}nuxt3-app
           tags: ${{ steps.meta.outputs.tags }},{{ formatTime(now(), 'yyyyMMddHHmmss') }}
 
       - name: Build and Push Docker image
