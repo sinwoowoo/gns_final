@@ -190,7 +190,7 @@ common.js의 역할을 하는 부분으로 모달, 유효성 검사등 공통적
 - npm run generate 후 dist 폴더 정상 생성 확인
 - 생성된 dist 폴더 내 파일을 web서버 ROOT 경로에 배포
 
-- mermaid
+```mermaid
 
 graph TD
     A[External User] -->|Access via Public IP| B(Application Gateway)
