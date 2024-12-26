@@ -189,3 +189,30 @@ common.js의 역할을 하는 부분으로 모달, 유효성 검사등 공통적
 **수동 배포**
 - npm run generate 후 dist 폴더 정상 생성 확인
 - 생성된 dist 폴더 내 파일을 web서버 ROOT 경로에 배포
+
+- mermaid
+
+graph TD
+    A[External User] -->|Access via Public IP| B(Application Gateway)
+    I[Internal User] -->|Access via Private IP| B(Application Gateway)
+    B -->|Routes Traffic| C(Web App Service)
+    B -.->|Monitoring and Logs| M[Azure Monitor]
+    C -->|Integration| D[Virtual Network]
+    subgraph Azure
+        B[Application Gateway]
+        C[Web App Service]
+        D[Virtual Network]
+        subgraph Subnets
+            S1[AG Subnet]
+            S2[App Service Integration Subnet]
+        end
+    end
+    D --> S1
+    D --> S2
+    subgraph Additional Components
+        M[Azure Monitor]
+        W[Web Application Firewall]
+        SSL[SSL Certificates]
+    end
+    B -.-> W
+    B -.-> SSL
